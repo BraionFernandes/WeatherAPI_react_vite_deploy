@@ -19,7 +19,7 @@ export default function PagClima(){
 
     useEffect(() => {
         if (!weatherData || !weatherData.main){
-            navigate('/WeatherAPI_react_vite_deploy');
+            navigate('/WeatherAPI_react_vite_deploy/');
         }
 
     }, [navigate]);
