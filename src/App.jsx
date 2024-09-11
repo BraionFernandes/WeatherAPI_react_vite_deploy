@@ -9,7 +9,7 @@ function App() {
   return (
       <>
         <WeatherProvider>
-          <Routes path='/WeatherAPI_react_vite_deploy'>
+          <Routes>
               <Route path='/' element={<PagClimaHome/>}/>
               <Route path='/PagClima' element={<PagClima/>}/>
           </Routes>
