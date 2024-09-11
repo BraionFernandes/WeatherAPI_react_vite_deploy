@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+:root{
+  --fonte-padrao: "League Spartan", sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--fonte-padrao);
+}
+#root{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(assets/components/img/clima-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: contrast(130%);
+}
+.content{
+  width: 70vw;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.search-div{
+  width: 60%;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.search-form{
+  display: flex;
+  justify-content: space-between;
+}
+.search-city{
+  width: 90%;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  background-color: #fff;
+}
+.submit-button{
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  color: #525252;
+  border: none;
+  cursor: pointer;
+}
+.info-div{
+  background-color: #ffffffbf;
+  width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  border-radius: 15px;
+}
+.hours{
+  text-align: center;
+  color: #000;
+  font-size: 4em;
+  font-weight: bold;
+}
+.date{
+  text-align: center;
+  color: #000;
+  font-size: 1.2em;
+  font-weight: normal;
+}

@@ -1,0 +1,110 @@
+@media screen and (max-width: 1290px){
+    .pagClima-content{
+        width: 90vw;
+        height: 90vh;
+    }
+}
+@media screen and (max-width: 990px){
+    .pagClima-content{
+        width: 90vw;
+        height: 90vh;
+    }
+    .infoDiv{
+        width: 100%;
+        height: 50%;
+        float: none;
+    }
+    .imgDiv{
+        width: 100%;
+        height: 50%;
+        float: none;
+    }
+}
+@media screen and (max-width: 720px){
+    .info-temp{
+        padding: 0px;
+    }
+    .info-temp span{
+        font-size: 9em;
+    }
+}
+@media screen and (max-width: 520px){
+    .info-citySearch{
+        justify-content: center;
+    }
+    .info-citySearch p{
+        font-size: 1.9em;
+    }
+    .info-date{
+        float: none;
+        width: 100%;
+        height: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-hours-text{
+        font-size: 2.2em;
+        padding: 5px;
+    }
+    .info-date-text{
+        font-size: 1.8em;
+        padding: 0px 10px;
+    }
+    .info-temp{
+        float: none;
+        width: 100%;
+        height: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-temp span{
+        width: 160px;
+        height: 110px;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 380px){
+    .weatherInfo img{
+        width: 100px;
+        height: 100px;
+        filter: saturate(2);
+    }
+    .humidityInfo, .windInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 5px;
+    }
+    .humidityInfo p, .windInfo p{
+        font-size: 1.6em;
+        font-weight: normal;
+    }
+    .humidityInfo span, .windInfo span{
+        font-size: 1.4em;
+        font-weight: normal;
+    }
+    .info-citySearch p{
+        font-weight: bold;
+        font-size: 1.6em;
+        padding: 3px;
+        color: #fff;
+    }
+    .info-citySearch img{
+        width: 50px;
+        height: 50px;
+    }
+    .info-temp span{
+        font-size: 6em;
+        width: auto;
+        height: 70px;
+    }
+    .info-hours-text{
+        font-size: 1.7em;
+        padding: 5px;
+    }
+    .info-date-text{
+        font-size: 1.5em;
+        padding: 0px 5px;
+    }
+}

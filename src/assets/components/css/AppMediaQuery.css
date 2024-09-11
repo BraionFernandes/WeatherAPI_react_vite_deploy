@@ -1,0 +1,53 @@
+@media screen and (min-width: 2560px) and (min-height: 1440px) {
+    .search-div{
+        padding: 10px;
+    }
+    .search-div input{
+        font-size: 1.6em;
+    }
+    .search-button-div{
+        width: 10%;
+    }
+    .search-button-div > button i{
+        font-size: 2.5em;
+    }
+    .hours{
+        font-size: 7em;
+    }
+    .date{
+        font-size: 2.5em;
+    }
+}
+@media screen and (max-width: 1150px){
+    .search-div{
+        width: 80%;
+    }
+    .info-div{
+        width: 60%;
+        justify-content: space-evenly;
+    }
+    .hours{
+        font-size: 3.4em;
+    }
+}
+@media screen and (max-width: 740px){
+    .search-div{
+        width: 100%;
+    }
+    .info-div{
+        width: 80%;
+        height: 40%;
+    }
+}
+@media screen and (max-width: 500px){
+    .content{
+        justify-content: space-evenly;
+    }
+    .info-div{
+        width: 90%;
+        height: 30%;
+    }
+    .hours{
+        font-size: 3em;
+    }
+}
