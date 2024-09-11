@@ -10,8 +10,8 @@ function App() {
       <>
         <WeatherProvider>
           <Routes>
-              <Route path='/' element={<PagClimaHome/>}/>
-              <Route path='/PagClima' element={<PagClima/>}/>
+              <Route path='/WeatherAPI_react_vite_deploy' element={<PagClimaHome/>}/>
+              <Route path='/WeatherAPI_react_vite_deploy/PagClima' element={<PagClima/>}/>
           </Routes>
         </WeatherProvider>
       </>
