@@ -3,9 +3,6 @@ import '../css/pagClima.css'
 import '../css/pagClimaMQ.css'
 import Relogio from "../js/relogio"
 import Calendario from "../js/Calendario"
-import { WeatherContext } from "../js/WeatherContext"
-import { useContext, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 
 import WeatherInfo from "../js/WeatherInfo"
 import HumidityInfo from "../js/humidityInfo"
@@ -14,16 +11,6 @@ import CityName from "../js/cityName"
 import TempInfo from "../js/TempInfo"
 
 export default function PagClima(){
-    const navigate = useNavigate();
-    const { weatherData } = useContext(WeatherContext);
-
-    useEffect(() => {
-        if (!weatherData || !weatherData.main){
-            navigate('/WeatherAPI_react_vite_deploy/');
-        }
-
-    }, [navigate]);
-
     return(
         <>
             <div className='background'></div>
