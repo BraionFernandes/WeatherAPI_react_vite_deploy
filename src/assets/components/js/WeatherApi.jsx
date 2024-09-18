@@ -26,6 +26,7 @@ export default function WeatherApi(){
         const fetchWeather = async () => {
             const data = await getWeatherData(city);
             setWeatherData(data);
+            localStorage.setItem("weatherData", JSON.stringify(data));
         };
 
         if (city) {

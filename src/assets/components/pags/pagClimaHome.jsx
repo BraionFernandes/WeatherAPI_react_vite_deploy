@@ -1,17 +1,11 @@
 import React from "react";
 import '../css/AppMediaQuery.css'
-import { useNavigate } from "react-router-dom";
 import Relogio from "../js/relogio";
 import Calendario from "../js/Calendario";
 
 import WeatherApi from "../js/WeatherApi";
 
 export default function PagClimaHome(){
-    const navigate = useNavigate();
-
-    const handleSearch = () => {
-        navigate(`/pagClima`);
-    };
 
     return(
         <>
